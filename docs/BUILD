@@ -11,7 +11,7 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 
-load("@pip_sphinx//:requirements.bzl", "requirement")
+load("@pip_sphinx//:requirements.bzl", "all_requirements", "requirement")
 load("@rules_pkg//pkg:mappings.bzl", "pkg_files")
 load("@rules_pkg//pkg:tar.bzl", "pkg_tar")
 load("@rules_python//python:defs.bzl", "py_library")
@@ -25,6 +25,7 @@ sphinx_docs(
         "**/*.svg",
         "**/*.rst",
         "**/*.html",
+        "**/*.css",
     ]),
     config = ":conf.py",
     extra_opts = [
@@ -42,9 +43,7 @@ sphinx_docs(
 
 sphinx_build_binary(
     name = "sphinx_build",
-    deps = [
-        requirement("sphinx"),
-    ],
+    deps = all_requirements,
 )
 
 compile_pip_requirements(

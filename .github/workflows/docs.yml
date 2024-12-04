@@ -38,7 +38,7 @@ jobs:
           retention-days: 1
           if-no-files-found: error
       - name: Comment artifact URL
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false
         run: |
           gh pr comment ${{ github.event.pull_request.number }} \
             --body "Documentation artifact: ${{ steps.upload-artifact-pr.outputs.artifact-url }}"
