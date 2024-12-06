@@ -12,8 +12,34 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
+.. raw:: html
+
+   <div style="visibility: hidden;height:0px;">
+
 SCORE (Eclipse Safe Open Vehicle Core)
 ######################################
+
+.. raw:: html
+
+   </div>
+
+.. toctree::
+   :hidden:
+
+   get_involved
+
+.. raw:: html
+
+   <div id="videowrapper">
+      <div id="fullScreenDiv">
+         <div id="score-title"> 
+               Eclipse SCORE
+               <span id="score-subtitle">Eclipse Safe Open Vehicle Core</span>
+               <span id="score-phrase">BUILD THE BEST AUTOMOTIVE RUNTIME SOLUTION ONLY ONCE</span>
+         </div>   
+      </div>
+   </div>
+
 
 Background
 **********
@@ -118,9 +144,9 @@ Roadmap
 
 Here you can find the preliminary roadmap of the project:
 
-  .. image:: _assets/score_roadmap.svg
-     :alt: project roadmap
-     :align: center
+.. image:: _assets/score_roadmap.svg
+   :alt: project roadmap
+   :align: center
 
 
 Please be aware, that this roadmap will be also transfered to the `GitHub project <https://github.com/orgs/eclipse-score/projects/1>`_.

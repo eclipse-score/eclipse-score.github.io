@@ -4,3 +4,12 @@ MODULE.bazel.lock
 
 # Ruff
 .ruff_cache
+
+# Python
+.venv/
+
+# Environments
+.envrc
+
+# Sphinx builds
+_build/
