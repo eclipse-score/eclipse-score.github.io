@@ -27,7 +27,7 @@ If you want to get into contact with SCORE, these are your primary entry points:
 
 :Project Mailing List: score-dev@eclipse.org
 
-:Architectural Discussion: `#score-project-open-channel <https://sdvworkinggroup.slack.com/archives/C083Z4VL90B>`__
+:Architectural Discussion: `#score-project-channel-public <https://sdvworkinggroup.slack.com/archives/C083Z4VL90B>`__
 
 | **General Information / Alignment regarding SCORE as a basis for distributions & products:** 
 | Contact one of the project leads of SCORE https://projects.eclipse.org/projects/automotive.score/who
@@ -46,13 +46,16 @@ Direction of the SCORE project is discussed and decided in the project lead circ
 lead circle. Meeting notes are transparent via the SCORE github organization. (see https://github.com/orgs/eclipse-score/discussions)
 
 We aim to build a safety ready full stack architecture, where components fit to each other in 
-automotive grade Software Quality and performance. To achieve this, we follow a strict feature roadmap and architecture
-and a rigid software development process (publicly available in the SCORE Project Handbook starting end of 2024). 
+automotive grade Software Quality and performance. To achieve this, we follow a strict
+`feature roadmap and architecture <https://eclipse-score.github.io/score/score_releases/index.html#releases>`_
+and a `rigid software development process <https://eclipse-score.github.io/score/process/index.html#process-description>`_
+(currently under development). 
 
 Contributions to the SCORE project must therefore follow the technical direction of the project and the SCORE 
-architecture. All work in SCORE will therefore follow a "Contribution Request" Process. Features on the roadmap of 
-SCORE are defined, Contribution Requests create the basis for individual contributions from within the SCORE 
-project and also from the outside.
+architecture. All work in SCORE will therefore follow a
+`Contribution Request Guideline <https://eclipse-score.github.io/score/process/guidelines/contribution_request/index.html>`_.
+Features on the roadmap of SCORE are defined, Contribution Requests create the basis for individual contributions from
+within the SCORE project and also from the outside.
 
 You can make proposals for new features or architectural building blocks besides the active contribution requests. 
 Those will not by default be part of the next release of SCORE, because the SCORE release roadmap will strictly 
@@ -63,13 +66,13 @@ We plan to incorporate a staging area for such contributions, but
 in the initial phase of the SCORE project (until end of 2025) the focus will be primarily on building a valid 1.0 
 release. Feel free to reach out via the communication channels above.
 
-If you think about your contribution to SCORE, the Contribution Request overview
-is the best place to start (available on https://github.com/eclipse-score/score/issues starting Q1 / 2025)
+If you think about your contribution to SCORE, the `Feature Request overview <https://github.com/orgs/eclipse-score/projects/4/views/1>`_
+is the best place to start.
 
 Based on successful code contributions to the SCORE roadmap, further steps in involvement (like becoming a committer) 
-will be handled according to the rules of the Eclipse Foundation Project Handbook. We value real code based 
-collaboration and will judge new potential contributors and committers mainly on the validity of their work. Active 
-and sustaining contributions are the basis for the ability to shape SCORE.
+will be handled according to the rules of the Eclipse Foundation Project Handbook.
+We value real code based collaboration and will judge new potential contributors and committers mainly on the validity of their work.
+Active and sustaining contributions are the basis for the ability to shape SCORE.
 
-Making active code contributions via the contribution request process described in the Project Handbook. The 
-project handbook will be available on the SCORE website until end of 2024.
+Making active code contributions via the contribution request process described in the
+`SCORE project handbook <https://eclipse-score.github.io/score/platform_management_plan/project_management.html>`_.
