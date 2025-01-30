@@ -94,10 +94,10 @@ High Level View on the Core Stack
 The following high level architecture picture gives you an overview of the main platform building blocks
 including hardware specific peripherals.
 
-  .. image:: _assets/score_architecture_high_level_overview.png
-     :width: 900
-     :alt: High level view on the core stack
-     :align: center
+.. image:: _assets/score_architecture_high_level_overview.png
+   :width: 900
+   :alt: High level view on the core stack
+   :align: center
 
 Target Picture of Core Stack - PRELIMINARY
 ==========================================
@@ -105,20 +105,20 @@ Target Picture of Core Stack - PRELIMINARY
 The following image shows platform architecture in more details including surroundings as  
 Board support package (BSP) and HW specific.
 
-  .. image:: _assets/score_architecture_core_stack_target_picture.png
-     :width: 900
-     :alt: Target picture the core stack (preliminary)
-     :align: center
+.. image:: _assets/score_architecture_core_stack_target_picture.png
+   :width: 900
+   :alt: Target picture the core stack (preliminary)
+   :align: center
 
 Infrastructure
 **************
 
 The tooling used in this project is depicted in the following figure.
 
-  .. image:: _assets/score_tooling.svg
-     :width: 600
-     :alt: Infrastructure overview
-     :align: center
+.. image:: _assets/score_tooling.svg
+   :width: 800
+   :alt: Infrastructure overview
+   :align: center
 
 In general, all tooling is made available as open source and comes either from other open source projects
 or is developed in the context of the *SCORE* project. The whole infrastructure is based on a build system called
