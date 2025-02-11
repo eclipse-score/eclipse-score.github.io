@@ -46,7 +46,7 @@ html_logo = "_assets/S-CORE_Logo_white.svg"
 
 html_theme_options = {
     "external_links": [
-        {"name": "Docs", "url": "https://eclipse-score.github.io/score/"},
+        {"name": "Docs", "url": "https://eclipse-score.github.io/score/main"},
         {
             "name": "Eclipse",
             "url": "https://projects.eclipse.org/projects/automotive.score",
