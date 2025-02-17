@@ -64,7 +64,7 @@ html_theme_options = {
     "use_edit_page_button": True,  # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/source-buttons.html#add-an-edit-button
     "collapse_navigation": True,
     "logo": {
-        "text": "Eclipse SCORE",
+        "text": "Eclipse S-CORE",
     },
 }
 
