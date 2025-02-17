@@ -42,7 +42,8 @@ html_css_files = [
     "css/score.css",
 ]
 
-html_logo = "_assets/S-CORE_Logo_white.svg"
+# html_logo = "_assets/S-CORE_Logo_white_basic.svg"
+
 
 html_theme_options = {
     "external_links": [
@@ -62,6 +63,9 @@ html_theme_options = {
     ],
     "use_edit_page_button": True,  # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/source-buttons.html#add-an-edit-button
     "collapse_navigation": True,
+    "logo": {
+        "text": "Eclipse SCORE",
+    },
 }
 
 html_context = {
