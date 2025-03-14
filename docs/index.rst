@@ -16,8 +16,8 @@
 
    <div style="visibility: hidden;height:0px;">
 
-SCORE (Eclipse Safe Open Vehicle Core)
-######################################
+S-CORE (Eclipse Safe Open Vehicle Core)
+#######################################
 
 .. raw:: html
 
@@ -123,10 +123,10 @@ The tooling used in this project is depicted in the following figure.
    :align: center
 
 In general, all tooling is made available as open source and comes either from other open source projects
-or is developed in the context of the *SCORE* project. The whole infrastructure is based on a build system called
+or is developed in the context of the *S-CORE* project. The whole infrastructure is based on a build system called
 `bazel <https://bazel.build/>`_. All workflows such as cloning the repositories, building the software,
 generation of documentation, testing and much more are automated using bazel. This provides every project user with
-the same user experience. To start working with bazel in the *SCORE* project, you should check
+the same user experience. To start working with bazel in the *S-CORE* project, you should check
 this `introduction page <https://github.com/eclipse-score/blob/main/README.md>`_.
 
 For documenting the process, requirements and architecture we rely on `sphinx <https://www.sphinx-doc.org/en/master/>`_ and it's extension
@@ -134,11 +134,11 @@ For documenting the process, requirements and architecture we rely on `sphinx <h
 for larger diagrams we use `draw.io <https://github.com/jgraph/drawio-desktop>`_.
 
 We support both C++ and Rust programming languages. Software development is done in both languages. Decision which language to choose is done during
-architecture process. In general, C++ should be used only for the existing modules, that are taken over or referenced by the *SCORE* project.
+architecture process. In general, C++ should be used only for the existing modules, that are taken over or referenced by the *S-CORE* project.
 For new features and components we aim to develop the code mostly in Rust, as it seems to be more suitable for development compliant to ISO 26262:2018.  
 
 We use `gtest/gmock <https://github.com/google/googletest>`_ for unit testing and *ITF (Integration testing framework)* for component and integration tests.
-*ITF* was originally developed by one of the initial partners of the *SCORE* project and provided to the community as open source project. Integration tests
+*ITF* was originally developed by one of the initial partners of the *S-CORE* project and provided to the community as open source project. Integration tests
 are executed both in virtual environment and on the reference hardware. 
 
 Roadmap
@@ -171,7 +171,7 @@ latest in the beginning of 2025.
 Alignment Phase
 ===============
 
-In the *Alignment Phase* the main goal is to align on the feature architecture and requirements of the *SCORE Platform v1.0*.
+In the *Alignment Phase* the main goal is to align on the feature architecture and requirements of the *S-CORE Platform v1.0*.
 Additionally it is important to define the roadmap and the order, in which the features should be implemented.
 
 Development Phase
@@ -202,7 +202,7 @@ The following regular meetings (and corresponding meeting minutes) are held as p
 
 The dates will be announced via the score-dev@eclipse.org mailing list.
 
-We plan to start regular exchange in the scope of the *SCORE* project in December 2024.
+We plan to start regular exchange in the scope of the *S-CORE* project in December 2024.
 
 Partners
 ========

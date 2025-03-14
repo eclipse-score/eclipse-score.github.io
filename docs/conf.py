@@ -19,9 +19,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "SCORE"
+project = "S-CORE"
 copyright = "2024, Score"
-author = "SCORE committers"
+author = "S-CORE committers"
 release = "0.1"
 
 # -- General configuration ---------------------------------------------------
