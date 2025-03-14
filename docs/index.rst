@@ -126,8 +126,8 @@ In general, all tooling is made available as open source and comes either from o
 or is developed in the context of the *S-CORE* project. The whole infrastructure is based on a build system called
 `bazel <https://bazel.build/>`_. All workflows such as cloning the repositories, building the software,
 generation of documentation, testing and much more are automated using bazel. This provides every project user with
-the same user experience. To start working with bazel in the *S-CORE* project, you should check
-this `introduction page <https://github.com/eclipse-score/blob/main/README.md>`_.
+the same user experience. To start working with bazel in the *S-CORE* project to build software and documentation, 
+you should check this `introduction page <https://github.com/eclipse-score/score/blob/main/README.md>`_.
 
 For documenting the process, requirements and architecture we rely on `sphinx <https://www.sphinx-doc.org/en/master/>`_ and it's extension
 `sphinx-needs <https://www.sphinx-needs.com/>`_. For small diagrams we use `PlantUML sphinx-needs extensions <https://sphinx-needs.readthedocs.io/en/stable/directives/needuml.html>`_,
@@ -151,7 +151,7 @@ Here you can find the preliminary roadmap of the project:
    :align: center
 
 
-Please be aware, that this roadmap will be also transfered to the `GitHub project <https://github.com/orgs/eclipse-score/projects/1>`_.
+Please be aware, that this roadmap will be also transfered to the `GitHub project <https://github.com/orgs/eclipse-score/projects/13>`_.
 Please follow this link to get the latest state of the planning. 
 
 MVP Phase

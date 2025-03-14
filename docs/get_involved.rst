@@ -47,13 +47,13 @@ lead circle. Meeting notes are transparent via the S-CORE github organization. (
 
 We aim to build a safety ready full stack architecture, where components fit to each other in 
 automotive grade Software Quality and performance. To achieve this, we follow a strict
-`feature roadmap and architecture <https://eclipse-score.github.io/score/score_releases/index.html#releases>`_
-and a `rigid software development process <https://eclipse-score.github.io/score/process/index.html#process-description>`_
+`feature roadmap and architecture <https://eclipse-score.github.io/score/main/score_releases/index.html>`_
+and a `rigid software development process <https://eclipse-score.github.io/score/main/process/index.html>`_
 (currently under development). 
 
 Contributions to the S-CORE project must therefore follow the technical direction of the project and the S-CORE 
 architecture. All work in S-CORE will therefore follow a
-`Contribution Request Guideline <https://eclipse-score.github.io/score/process/guidance/contribution_request/index.html>`_.
+`Contribution Request Guideline <https://eclipse-score.github.io/score/main/contribute/contribution_request/contribution_request.html>`_.
 Features on the roadmap of S-CORE are defined, Contribution Requests create the basis for individual contributions from
 within the S-CORE project and also from the outside.
 
@@ -75,4 +75,4 @@ We value real code based collaboration and will judge new potential contributors
 Active and sustaining contributions are the basis for the ability to shape S-CORE.
 
 Making active code contributions via the contribution request process described in the
-`S-CORE project handbook <https://eclipse-score.github.io/score/platform_management_plan/project_management.html>`_.
+`S-CORE project handbook <https://eclipse-score.github.io/score/main/platform_management_plan/project_management.html>`_.
