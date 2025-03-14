@@ -194,15 +194,13 @@ How we Work
 Meetings
 ========
 
-The following regular meetings (and corresponding meeting minutes) are held as part of the project:
+Regular meetings (and corresponding meeting minutes) are held as part of the project:
 
-- `Project Leader Circle <https://github.com/orgs/eclipse-score/discussions/categories/project-lead-circle>`_
+- `Teams & Circles <https://github.com/orgs/eclipse-score/discussions>`_
 
-- `Technical Leader Circle <https://github.com/orgs/eclipse-score/discussions/categories/technical-leader-circle>`_
+Typically teams and circles meet weekly.
 
-The dates will be announced via the score-dev@eclipse.org mailing list.
-
-We plan to start regular exchange in the scope of the *S-CORE* project in December 2024.
+A public meeting calendar for the *S-CORE* project is in preparation.
 
 Partners
 ========
