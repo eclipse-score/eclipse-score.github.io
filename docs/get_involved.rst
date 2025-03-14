@@ -42,7 +42,7 @@ The :underline:`only` way to influence S-CORE is TO CONTRIBUTE. Everybody can co
 
 Active Contributions to the S-CORE project are the basis for getting involved. The S-CORE Project works according to 
 the Eclipse Project Handbook and has named and elected project leads and committers (see https://projects.eclipse.org/projects/automotive.score/who). 
-Direction of the S-CORE project is discussed and decided in the project lead circle, technical direction is created and prediscussed in the tech 
+Direction of the S-CORE project is discussed and decided in the project lead circle, technical direction is created and discussed upfront in the tech 
 lead circle. Meeting notes are transparent via the S-CORE github organization. (see https://github.com/orgs/eclipse-score/discussions)
 
 We aim to build a safety ready full stack architecture, where components fit to each other in 

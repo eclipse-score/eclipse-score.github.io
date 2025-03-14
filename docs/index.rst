@@ -151,7 +151,7 @@ Here you can find the preliminary roadmap of the project:
    :align: center
 
 
-Please be aware, that this roadmap will be also transfered to the `GitHub project <https://github.com/orgs/eclipse-score/projects/13>`_.
+Please be aware, that this roadmap will be also transferred to the `GitHub project <https://github.com/orgs/eclipse-score/projects/13>`_.
 Please follow this link to get the latest state of the planning. 
 
 MVP Phase
@@ -162,8 +162,8 @@ The main goals of the *MVP Phase* are following:
 * establish a working infrastructure, that enables every developer of the project to specify
   requirements and architecture, implement code and test it accordingly.
 * set-up project structure, that covers all aspects of the open source software development including
-  cooperation between developers and teams, planning, creation of the roadmaps and coordination meetings.
-* define a software development process compliant to ISO 26262:2018, that is a prerequiste for any other software development in the project.
+  cooperation between developers and teams, planning, creation of the roadmap and coordination meetings.
+* define a software development process compliant to ISO 26262:2018, that is a prerequisite for any other software development in the project.
 
 A lot of preparation was already done in the background, therefore we are quite optimistic to finish the *MVP Phase*
 latest in the beginning of 2025.  
@@ -185,7 +185,7 @@ the interest of the automotive community to the project.
 Series Stability & Evolution Phase
 ==================================
 
-In this phase the project should be in an well established state and accepted by the community. Continious development
+In this phase the project should be in an well established state and accepted by the community. Continuous development
 of the features is taking place.
 
 How we Work
