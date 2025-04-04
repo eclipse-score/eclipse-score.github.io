@@ -127,7 +127,7 @@ or is developed in the context of the *SCORE* project. The whole infrastructure 
 `bazel <https://bazel.build/>`_. All workflows such as cloning the repositories, building the software,
 generation of documentation, testing and much more are automated using bazel. This provides every project user with
 the same user experience. To start working with bazel in the *SCORE* project, you should check
-this `introduction page <https://github.com/eclipse-score/blob/main/README.md>`_.
+this `introduction page <https://github.com/eclipse-score/score/blob/main/README.md>`_.
 
 For documenting the process, requirements and architecture we rely on `sphinx <https://www.sphinx-doc.org/en/master/>`_ and it's extension
 `sphinx-needs <https://www.sphinx-needs.com/>`_. For small diagrams we use `PlantUML sphinx-needs extensions <https://sphinx-needs.readthedocs.io/en/stable/directives/needuml.html>`_,
