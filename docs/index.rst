@@ -14,17 +14,7 @@
 
 .. raw:: html
 
-   <div style="visibility: hidden;height:0px;">
-
-Eclipse S-CORE (Eclipse Safe Open Vehicle Core)
-###############################################
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
+   <title>Redirecting to Eclipse S-CORE...</title>
    <script type="text/javascript">
        // Redirect immediately using JavaScript
        window.location.replace("https://eclipse.dev/score/");
@@ -32,8 +22,12 @@ Eclipse S-CORE (Eclipse Safe Open Vehicle Core)
    <meta http-equiv="refresh" content="0; url=https://eclipse.dev/score/">
    <link rel="canonical" href="https://eclipse.dev/score/">
 
-
    <p>
-         Eclipse S-CORE (Eclipse Safe Open Vehicle Core)</br></br>
-         If you are not redirected automatically, follow this <a href="https://eclipse.dev/score/">link to Eclipse S-CORE Introduction page</a>.
+         You are being redirected to Eclipse S-CORE. </br>
+         If you are not redirected automatically, follow this <a href="https://eclipse.dev/score/">link</a>.
    </p>
+
+.. toctree::
+   :hidden:
+
+   get_involved
