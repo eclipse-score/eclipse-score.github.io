@@ -14,4 +14,4 @@ jobs:
         uses: bazel-contrib/setup-bazel@0.9.1
       - name: Run copyright checks
         run: |
-          bazel run //:copyright.check
+          bazel run --lockfile_mode=error //:copyright.check

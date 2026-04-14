@@ -1,6 +1,6 @@
 # Bazel
 bazel-*
-MODULE.bazel.lock
+#MODULE.bazel.lock
 
 # Ruff
 .ruff_cache
