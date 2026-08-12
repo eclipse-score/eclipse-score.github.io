@@ -31,7 +31,7 @@ If you want to get into contact with SCORE, these are your primary entry points:
 
 .. note::
     You need to be a member of the Eclipse SDV Working Group Slack to access this channel.
-    If you are not a member yet, please `join here <https://join.slack.com/t/sdvworkinggroup/shared_invite/zt-1yxo8mejp-aul08kAuuOwi2LRbSXvCTw>`_.
+    If you are not a member yet, please `go here <https://sdv.eclipse.org/get-engaged/>`_ and choose "Join Workspace".
 
 | **General Information / Alignment regarding SCORE as a basis for distributions & products:** 
 | Contact one of the project leads of SCORE https://projects.eclipse.org/projects/automotive.score/who
@@ -42,7 +42,7 @@ https://github.com/eclipse-score/score/blob/main/CONTRIBUTION.md
 How to get involved into SCORE
 ------------------------------
 
-The :underline:`only` way to influence SCORE is TO CONTRIBUTE. Everybody can contribute – SCORE is open.
+The :underline:`only` way to influence SCORE is TO CONTRIBUTE. Everybody can contribute - SCORE is open.
 
 Active Contributions to the SCORE project are the basis for getting involved. The SCORE Project works according to 
 the Eclipse Project Handbook and has named and elected project leads and committers (see https://projects.eclipse.org/projects/automotive.score/who). 
@@ -51,13 +51,13 @@ lead circle. Meeting notes are transparent via the SCORE github organization. (s
 
 We aim to build a safety ready full stack architecture, where components fit to each other in 
 automotive grade Software Quality and performance. To achieve this, we follow a strict
-`feature roadmap and architecture <https://eclipse-score.github.io/score/score_releases/index.html#releases>`_
-and a `rigid software development process <https://eclipse-score.github.io/score/process/index.html#process-description>`_
+`feature roadmap and architecture <https://eclipse-score.github.io/score/main/score_releases/index.html#roadmap>`_
+and a `rigid software development process <https://eclipse-score.github.io/process_description/main/index.html>`_
 (currently under development). 
 
 Contributions to the SCORE project must therefore follow the technical direction of the project and the SCORE 
 architecture. All work in SCORE will therefore follow a
-`Contribution Request Guideline <https://eclipse-score.github.io/score/process/guidance/contribution_request/index.html>`_.
+`Contribution Request Guideline <https://eclipse-score.github.io/score/main/contribute/index.html>`_.
 Features on the roadmap of SCORE are defined, Contribution Requests create the basis for individual contributions from
 within the SCORE project and also from the outside.
 
@@ -79,4 +79,4 @@ We value real code based collaboration and will judge new potential contributors
 Active and sustaining contributions are the basis for the ability to shape SCORE.
 
 Making active code contributions via the contribution request process described in the
-`SCORE project handbook <https://eclipse-score.github.io/score/platform_management_plan/project_management.html>`_.
+`SCORE project handbook <https://eclipse-score.github.io/score/main/platform_management_plan/project_management.html>`_.
