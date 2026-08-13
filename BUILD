@@ -11,6 +11,13 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 
+
+load("@score_docs_as_code//:docs.bzl", "docs")
+
+docs(
+    source_dir = "docs",
+)
+
 test_suite(
     name = "format.check",
     tests = ["//tools/format:format.check"],
@@ -21,28 +28,14 @@ alias(
     actual = "//tools/format:format.fix",
 )
 
+# bazel run //:shellcheck
 alias(
-    name = "copyright.check",
-    actual = "//tools/cr_checker:copyright.check",
+    name = "shellcheck",
+    actual = "@score_devcontainer//tools:shellcheck",
 )
 
+# bazel run //:actionlint
 alias(
-    name = "copyright.fix",
-    actual = "//tools/cr_checker:copyright.fix",
+    name = "actionlint",
+    actual = "@score_devcontainer//tools:actionlint",
 )
-
-filegroup(
-    name = "repo_directories",
-    srcs = [
-        "docs",
-        "tools",
-    ],
-    visibility = [
-        "//tools/cr_checker:__subpackages__",
-    ],
-)
-
-exports_files([
-    "MODULE.bazel",
-    "BUILD",
-])

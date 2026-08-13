@@ -1,15 +1,29 @@
+# Commonly used for local settings and secrets
+.env
+
 # Bazel
 bazel-*
-MODULE.bazel.lock
+user.bazelrc
 
-# Ruff
-.ruff_cache
+# docs build artifacts
+_build/
+ubproject.toml
 
-# Python
-.venv/
+# Vale - editorial style guide
+.vale.ini
+styles/
 
-# Environments
+# direnv - folder-specific bash configuration
 .envrc
 
-# Sphinx builds
-_build/
+# Python
+.venv*
+__pycache__/
+/.coverage
+
+# bug: This file is created in repo root on test discovery.
+.clwb
+
+# AI
+/.codex
+/.claude

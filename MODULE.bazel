@@ -1,7 +1,18 @@
+# *******************************************************************************
+# Copyright (c) 2026 Contributors to the Eclipse Foundation
+#
+# See the NOTICE file(s) distributed with this work for additional
+# information regarding copyright ownership.
+#
+# This program and the accompanying materials are made available under the
+# terms of the Apache License Version 2.0 which is available at
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# SPDX-License-Identifier: Apache-2.0
+# *******************************************************************************
+
 module(
     name = "score_platform",
-    version = "0.1",
-    compatibility_level = 0,
 )
 
 ###############################################################################
@@ -9,7 +20,7 @@ module(
 # Python version
 #
 ###############################################################################
-bazel_dep(name = "rules_python", version = "0.37.2")
+bazel_dep(name = "rules_python", version = "1.8.5")
 
 PYTHON_VERSION = "3.12"
 
@@ -18,7 +29,6 @@ python.toolchain(
     is_default = True,
     python_version = PYTHON_VERSION,
 )
-use_repo(python)
 
 ###############################################################################
 #
@@ -29,24 +39,24 @@ pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
 pip.parse(
     hub_name = "pip_sphinx",
     python_version = PYTHON_VERSION,
-    requirements_lock = "//docs:requirements_lock.txt",
+    requirements_lock = "@score_docs_as_code//src:requirements.txt",
 )
 use_repo(pip, "pip_sphinx")
 
 ###############################################################################
 #
-# Packaging dependencies
+# Provides documentation build & publishing
 #
 ###############################################################################
-bazel_dep(name = "rules_pkg", version = "1.0.1")
+bazel_dep(name = "score_docs_as_code", version = "7.1.0")
 
 ###############################################################################
 #
-# Buildifier dependency
-# Provides formatting and linting of Bazel files.
+# Other deps
 #
 ###############################################################################
-bazel_dep(name = "buildifier_prebuilt", version = "7.3.1")
+bazel_dep(name = "rules_pkg", version = "1.1.0")
+bazel_dep(name = "rules_java", version = "8.15.1")
 
 ###############################################################################
 #
@@ -54,3 +64,10 @@ bazel_dep(name = "buildifier_prebuilt", version = "7.3.1")
 #
 ###############################################################################
 bazel_dep(name = "aspect_rules_lint", version = "1.0.3")
+
+###############################################################################
+#
+# Provides formatting binaries and tools
+#
+###############################################################################
+bazel_dep(name = "score_devcontainer", version = "1.10.0", dev_dependency = True)

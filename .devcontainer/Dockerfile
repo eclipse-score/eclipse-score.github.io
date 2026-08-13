@@ -1,5 +1,5 @@
 # *******************************************************************************
-# Copyright (c) 2024 Contributors to the Eclipse Foundation
+# Copyright (c) 2026 Contributors to the Eclipse Foundation
 #
 # See the NOTICE file(s) distributed with this work for additional
 # information regarding copyright ownership.
@@ -11,25 +11,5 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 
-load("//tools/cr_checker:cr_checker.bzl", "check", "fix")
-
-check(
-    name = "copyright.check",
-    srcs = [
-        "//:BUILD",
-        "//:MODULE.bazel",
-        "//:repo_directories",
-    ],
-    offset = 24,
-    visibility = ["//visibility:public"],
-)
-
-fix(
-    name = "copyright.fix",
-    srcs = [
-        "//:BUILD",
-        "//:MODULE.bazel",
-        "//:repo_directories",
-    ],
-    visibility = ["//visibility:public"],
-)
+# Use Dockerfile to get dependabot version bumps after new image is released
+FROM ghcr.io/eclipse-score/devcontainer:v1.10.0

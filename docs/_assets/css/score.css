@@ -6,10 +6,10 @@ html {
     text-decoration: underline;
 }
 
-/*  SCORE specfic colors 
+/*  SCORE specfic colors
     A list of available colro variable names for pyData Sphinx Theme can be found at
-    https://pydata-sphinx-theme.readthedocs.io/en/stable/_downloads/565fbb3ecf2b3048f5fb3953890ba176/_color.scss 
-    
+    https://pydata-sphinx-theme.readthedocs.io/en/stable/_downloads/565fbb3ecf2b3048f5fb3953890ba176/_color.scss
+
     The base color is TEAL */
 
 
@@ -40,9 +40,9 @@ html[data-theme="dark"] {
 html[data-theme="dark"] #logo_center_light {
     display:none;
  }
- 
+
 html[data-theme="light"] #logo_center_drk {
-     display:none;        
+     display:none;
 }
 
 .search-button-field {
@@ -124,10 +124,10 @@ blockquote {
 div.score_banner {
     background-color: var(--pst-color-on-surface);
 }
-#videowrapper{  
+#videowrapper{
     position: relative;
     overflow: hidden;
-} 
+}
 
 #fullScreenDiv{
     height: 300px;
@@ -139,24 +139,24 @@ div.score_banner {
     container-type: inline-size;
 }
 
-#video{    
-    width: 100%; 
+#video{
+    width: 100%;
     /* height: auto;
     margin: auto;
     display: block; */
 }
 @media (min-aspect-ratio: 16/9) {
   #video{
-    width: 100%; 
+    width: 100%;
     height:auto;
   }
 }
 
 #score-title {
-    width: 100%; 
+    width: 100%;
     height: 100%;
-    position: absolute; 
-    top: 0; 
+    position: absolute;
+    top: 0;
     left: 0;
     display: flex;
     justify-content: center;
@@ -166,13 +166,13 @@ div.score_banner {
     /* font-size: 4.5em; */
     font-size: 8.0cqw;
     font-weight: 900;
-    
+
     /* Is somehow cool with image/video title background */
     /*animation: fadeIn 3s;  */
 }
 
 /* As long as no image or video is shown in
-   the title, this is not needed, but kept 
+   the title, this is not needed, but kept
    for future needs */
 /* html[data-theme="light"] #score-title {
     background-color: rgba(0,0,0,0.3);
@@ -198,4 +198,3 @@ html[data-theme="dark"] #score-title {
 #logo_center_drk {
     background-color: transparent;
 }
-

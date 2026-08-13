@@ -1,0 +1,7 @@
+{
+    "name": "eclipse-s-core",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "updateContentCommand": "bazel run //:ide_support"
+}

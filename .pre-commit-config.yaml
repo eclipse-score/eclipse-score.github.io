@@ -1,0 +1,72 @@
+# *******************************************************************************
+# Copyright (c) 2026 Contributors to the Eclipse Foundation
+#
+# See the NOTICE file(s) distributed with this work for additional
+# information regarding copyright ownership.
+#
+# This program and the accompanying materials are made available under the
+# terms of the Apache License Version 2.0 which is available at
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# SPDX-License-Identifier: Apache-2.0
+# *******************************************************************************
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+        exclude: ^\.vscode/ # those are actually jsonc files
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: mixed-line-ending
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ["--maxkb=150"]
+
+  - repo: local
+    hooks:
+      - id: bazel-mod-tidy
+        name: format Bazel module files
+        entry: bazel mod tidy
+        language: system
+        pass_filenames: false
+        files: '(^|/)(MODULE\.bazel|.*\.bzl|BUILD(\.bazel)?)$'
+
+      - id: bzlmod-lockfile
+        name: bazel mod deps lockfile check
+        entry: bazel mod deps --lockfile_mode=error
+        language: system
+        pass_filenames: false
+        files: '(^|/)MODULE\.bazel(\.lock)?$'
+
+      - id: actionlint
+        name: actionlint
+        # Disable shellcheck and pyflakes for now, to enforce consistent behavior.
+        entry: .devcontainer/run-tool actionlint -shellcheck= -pyflakes=
+        language: system
+        require_serial: true
+        types: [yaml]
+        files: ^\.github/workflows/
+      - id: ruff-check
+        name: ruff-check
+        entry: .devcontainer/run-tool ruff check --fix
+        language: system
+        require_serial: true
+        types: [python]
+      - id: ruff-format
+        name: ruff-format
+        entry: .devcontainer/run-tool ruff format
+        language: system
+        require_serial: true
+        types: [python]
+
+  # Ensure every file has a copyright header as per the Eclipse Foundation's requirements
+  # CR_CHECKER
+  - repo: https://github.com/eclipse-score/tools
+    rev: 7694bf823421b5542cd2f45239b8bdf205dbface
+    hooks:
+      - id: copyright

@@ -1,0 +1,36 @@
+# *******************************************************************************
+# Copyright (c) 2025 Contributors to the Eclipse Foundation
+#
+# See the NOTICE file(s) distributed with this work for additional
+# information regarding copyright ownership.
+#
+# This program and the accompanying materials are made available under the
+# terms of the Apache License Version 2.0 which is available at
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# SPDX-License-Identifier: Apache-2.0
+# *******************************************************************************
+
+name: PR Checks
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  merge_group:
+    types: [checks_requested]
+  push:
+    branches:
+      - main
+  release:
+    types: [published]
+
+jobs:
+  common:
+    uses: eclipse-score/cicd-workflows/.github/workflows/on-pr.yml@88cb460c47cb49efeb25cd7b73c8945dd1c5bce2 # on-pr/v0.0.0
+    permissions:
+      contents: read
+
+  docs-build:
+    uses: eclipse-score/cicd-workflows/.github/workflows/docs.yml@206a795e30d45de82d541206fde17abe98d2b4bf
+    with:
+      bazel-target: "//:docs"

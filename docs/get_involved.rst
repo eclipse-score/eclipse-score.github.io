@@ -12,9 +12,6 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-.. role:: underline
-    :class: underline
-
 .. _get_involved:
 
 Get involved
@@ -23,7 +20,7 @@ Get involved
 How to get in contact with SCORE
 --------------------------------
 
-If you want to get into contact with SCORE, these are your primary entry points: 
+If you want to get into contact with SCORE, these are your primary entry points:
 
 :Project Mailing List: score-dev@eclipse.org
 
@@ -33,47 +30,47 @@ If you want to get into contact with SCORE, these are your primary entry points:
     You need to be a member of the Eclipse SDV Working Group Slack to access this channel.
     If you are not a member yet, please `go here <https://sdv.eclipse.org/get-engaged/>`_ and choose "Join Workspace".
 
-| **General Information / Alignment regarding SCORE as a basis for distributions & products:** 
+| **General Information / Alignment regarding SCORE as a basis for distributions & products:**
 | Contact one of the project leads of SCORE https://projects.eclipse.org/projects/automotive.score/who
 
-The technical HOWTO regarding involvement into SCORE is described here: 
+The technical HOWTO regarding involvement into SCORE is described here:
 https://github.com/eclipse-score/score/blob/main/CONTRIBUTION.md
 
 How to get involved into SCORE
 ------------------------------
 
-The :underline:`only` way to influence SCORE is TO CONTRIBUTE. Everybody can contribute - SCORE is open.
+The only way to influence SCORE is TO CONTRIBUTE. Everybody can contribute - SCORE is open.
 
-Active Contributions to the SCORE project are the basis for getting involved. The SCORE Project works according to 
-the Eclipse Project Handbook and has named and elected project leads and committers (see https://projects.eclipse.org/projects/automotive.score/who). 
-Direction of the SCORE project is discussed and decided in the project lead circle, technical direction is created and prediscussed in the tech 
+Active Contributions to the SCORE project are the basis for getting involved. The SCORE Project works according to
+the Eclipse Project Handbook and has named and elected project leads and committers (see https://projects.eclipse.org/projects/automotive.score/who).
+Direction of the SCORE project is discussed and decided in the project lead circle, technical direction is created and prediscussed in the tech
 lead circle. Meeting notes are transparent via the SCORE github organization. (see https://github.com/orgs/eclipse-score/discussions)
 
-We aim to build a safety ready full stack architecture, where components fit to each other in 
+We aim to build a safety ready full stack architecture, where components fit to each other in
 automotive grade Software Quality and performance. To achieve this, we follow a strict
 `feature roadmap and architecture <https://eclipse-score.github.io/score/main/score_releases/index.html#roadmap>`_
 and a `rigid software development process <https://eclipse-score.github.io/process_description/main/index.html>`_
-(currently under development). 
+(currently under development).
 
-Contributions to the SCORE project must therefore follow the technical direction of the project and the SCORE 
+Contributions to the SCORE project must therefore follow the technical direction of the project and the SCORE
 architecture. All work in SCORE will therefore follow a
 `Contribution Request Guideline <https://eclipse-score.github.io/score/main/contribute/index.html>`_.
 Features on the roadmap of SCORE are defined, Contribution Requests create the basis for individual contributions from
 within the SCORE project and also from the outside.
 
-You can make proposals for new features or architectural building blocks besides the active contribution requests. 
-Those will not by default be part of the next release of SCORE, because the SCORE release roadmap will strictly 
-comply with the contribution request structure. 
+You can make proposals for new features or architectural building blocks besides the active contribution requests.
+Those will not by default be part of the next release of SCORE, because the SCORE release roadmap will strictly
+comply with the contribution request structure.
 We plan to have the initial contribution request structure available in the SCORE GitHub until Q1 / 2025.
 
 We plan to incorporate a staging area for such contributions, but
-in the initial phase of the SCORE project (until end of 2025) the focus will be primarily on building a valid 1.0 
+in the initial phase of the SCORE project (until end of 2025) the focus will be primarily on building a valid 1.0
 release. Feel free to reach out via the communication channels above.
 
 If you think about your contribution to SCORE, the `Feature Request overview <https://github.com/orgs/eclipse-score/projects/4/views/1>`_
 is the best place to start.
 
-Based on successful code contributions to the SCORE roadmap, further steps in involvement (like becoming a committer) 
+Based on successful code contributions to the SCORE roadmap, further steps in involvement (like becoming a committer)
 will be handled according to the rules of the Eclipse Foundation Project Handbook.
 We value real code based collaboration and will judge new potential contributors and committers mainly on the validity of their work.
 Active and sustaining contributions are the basis for the ability to shape SCORE.
