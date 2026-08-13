@@ -11,7 +11,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 
-
 load("@score_docs_as_code//:docs.bzl", "docs")
 
 docs(
@@ -39,3 +38,5 @@ alias(
     name = "actionlint",
     actual = "@score_devcontainer//tools:actionlint",
 )
+
+exports_files(["MODULE.bazel"])
